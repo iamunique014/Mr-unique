@@ -226,6 +226,7 @@ h2,
 
 .service-item {
     transition: all ease-in-out 0.4s;
+    height: 100%;
 }
 
 .service-item .icon i {
