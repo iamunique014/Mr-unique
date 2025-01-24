@@ -243,6 +243,9 @@ h2,
     transition: 0.3s;
 }
 
+.portfolio-item img{
+    border: #4668a2 2px solid;
+}
 
 .portfolio-item .live-link{
     color: var(--accent-color);
@@ -410,4 +413,9 @@ h2,
 .footer .credits a {
     text-decoration: none;
     color: var(--accent-color);
+}
+
+
+.body{
+    height: 100vh;
 }
