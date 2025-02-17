@@ -82,7 +82,6 @@
 
 /*== Scroll Styles ===*/
 
-html,
 body {
     scroll-behavior: smooth;
 }
