@@ -73,6 +73,10 @@
     padding-left: 10px;
   }
   
+  .page-title .breadcrumbs ol li a {
+    text-decoration: none;
+  }
+
   .page-title .breadcrumbs ol li+li::before {
     content: "/";
     display: inline-block;
