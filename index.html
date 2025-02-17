@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="Assets/bootstrap-icons/bootstrap-icons.min.css">
-    <link href="assets/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/aos/aos.css">
     <link rel="stylesheet" href="style.css">
     <title>Mr unique</title>
 </head>
@@ -49,21 +49,22 @@
         </nav>
     </header>
 
-    <section id="home" class="home py-5 bg-light mb-5">
+    <section id="home" class="home py-5 mb-3">
         <div class="container">
             <div class="row min-vh-100 align-items-center">
 
                 <div class="col-md-6">
-                    <div class="home-img text-center">
+                    <div class="home-img text-center" data-aos="zoom-in-left" data-aos-delay="300">
                         <img src="Assets/Pictures Mr unique/IMG-20240921-WA0010.jpg" class="rounded-circle mw-100"
                             alt="profile">
                     </div>
                 </div>
+                
                 <div class="col-md-6 mt-5 order-md-first">
-                    <div class="home-text ">
+                    <div class="home-text" data-aos="fade-right">
                         <p class="text-uppercase">Software Developer</p>
-                        <h1 class="fs-1 fw-bold">Hi I'm <span>Alungile</span><br>Mvenyeza, .NET Developer</h1>
-                        <a href="#projects" class="btn mt-3">My Work</a>
+                        <h1 class="fs-1 fw-bold">Hi I'm <span>Alungile</span><br>Mvenyeza, I code, build & innovate</h1>
+                        <a href="#projects" class="btn mt-3"  data-aos="fade-up" data-aos-delay="200">My Work</a>
                     </div>
                 </div>
 
@@ -78,17 +79,17 @@
 
 
         <!-- Section Title -->
-        <div class="container section-title">
+        <div class="container section-title"  data-aos="fade-up">
             <h2>About Me</h2>
         </div><!-- End Section Title -->
 
         <div class="container-lg py-4">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <div class="about-text">
+                    <div class="about-text"  data-aos="fade-up">
                         <h3 class="fs-4 mb-3">I am a passionate and highly motivated Software Developer eager to join a
                             collaborative team</h3>
-                        <p class="text-muted">
+                        <p class="text-muted" data-aos="fade-up">
                             I have a passion for creating responsive and visually appealing websites using HTML, CSS,
                             and
                             Bootstrap. My expertise lies in building user-friendly interfaces that prioritize both
@@ -97,7 +98,7 @@
                             dynamic and scalable web applications. I take pride in crafting clean, modern designs that
                             align with client branding and ensure optimal user experiences.
                         </p>
-                        <div class="mt-3 d-flex align-items-center">
+                        <div class="mt-3 d-flex align-items-center"  data-aos="fade-up" data-aos-delay="100">
                             <a href="Assets/A Mvenyeza Dev Portfolio CV.pdf" target="_blank" class="btn me-5">Download
                                 CV</a>
                             <div class="social-links ">
@@ -115,7 +116,7 @@
 
                 </div>
 
-                <div class="col-md-6 ">
+                <div class="col-md-6 " data-aos="fade-up">
                     <div class="skill-item mt-5 mt-md-0 mb-3">
                         <h3 class="fs-6">HTML</h3>
                         <div class="progress" style="height: 5px;">
@@ -195,7 +196,7 @@
     <section id="services" class="services section py-5 bg-light ">
 
         <!-- Section Title -->
-        <div class="container mb-4 section-title">
+        <div class="container mb-4 section-title"  data-aos="fade-up">
             <h2>Services</h2>
             <p class="my-3">Expert web Development services for business and innovators</p>
         </div><!-- End Section Title -->
@@ -207,7 +208,7 @@
             <div class="row text-center">
 
                 <div class="col-lg-4 mb-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="service-item shadow-sm p-4 rounded bg-white" data-aos="flip-left" data-aos-delay="100">
                         <div class="icon my-3 text-danger fs-2">
                             <i class="bi bi-code-slash"></i>
                         </div>
@@ -218,7 +219,7 @@
                 </div>
 
                 <div class="col-lg-4 mb-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="service-item shadow-sm p-4 rounded bg-white" data-aos="flip-up" data-aos-delay="300">
                         <div class="icon my-3 text-danger fs-2">
                             <i class="bi bi-phone"></i>
                         </div>
@@ -228,7 +229,7 @@
                 </div>
 
                 <div class="col-lg-4 mb-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="service-item shadow-sm p-4 rounded bg-white" data-aos="flip-left" data-aos-delay="200">
                         <div class="icon my-3 text-danger fs-2">
                             <i class="bi bi-stack"></i>
                         </div>
@@ -254,7 +255,7 @@
     <section id="projects" class="services section bg-light mb-5">
 
         <!-- Section Title -->
-        <div class="container mb-4 section-title">
+        <div class="container mb-4 section-title"  data-aos="fade-up">
             <h2>My Work</h2>
             <p class="my-3">Explore my portfolio of custom web development projects</p>
         </div><!-- End Section Title -->
@@ -264,8 +265,9 @@
 
 
             <div class="row">
-                <a href="projects.html" class="text-decoration-none" title="View Project Details and Screenshots">
-                    <div class="col-lg-4 col-md-6 mb-3">
+
+                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="100">
+                    <a href="projects.html" class="text-decoration-none" title="View Project Details and Screenshots">
                         <div class="portfolio-item bg-white rounded shadow-sm p-2">
                             <img src="Assets/portfolio/Student management system.png" alt="SMS PIC"
                                 class="w-100 img-thumbnail">
@@ -279,9 +281,33 @@
                             </div>
 
                         </div>
-                    </div>
-                </a>
-                <div class="col-lg-4 col-md-6 mb-3">
+                    </a>
+                </div>
+
+
+
+
+                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="200">
+                    <a href="projects-store-management.html" class="text-decoration-none"
+                        title="View Project Details and Screenshots">
+                        <div class="portfolio-item bg-white rounded shadow-sm p-2">
+                            <img src="Assets/portfolio/inventory pexels-tima-miroshnichenko-6170395.jpg" alt="SMS PIC"
+                                class="w-100 img-thumbnail">
+                            <div class="text-center">
+                                <h3 class="text-dark text-capitalize fs-5 my-2">Store Management System</h3>
+                                <p class="">
+                                    <a href="https://github.com/iamunique014/Store-Management-System-SMS-"
+                                        class="text-decoration-none" title="View Source Code" target="_blank"><i
+                                            class="bi bi-github text-dark flex-shrink-0"></i></a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="portfolio-item rounded bg-white shadow-sm p-2">
                         <img src="Assets/portfolio/Cheesecake Landing Page.png" alt="Cheesecake Landing site"
                             class="w-100 img-thumbnail">
@@ -296,7 +322,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-item rounded bg-white shadow-sm p-2">
                         <img src="Assets/portfolio/Testimonials Section.png" alt="Testimonials section"
                             class="w-100 img-thumbnail">
@@ -314,7 +340,7 @@
 
 
 
-                <div class="col-lg-4 col-md-6 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-item rounded bg-white shadow-sm p-2">
                         <img src="Assets/portfolio/Tburger.png" alt="Tburger Landing section"
                             class="w-100 img-thumbnail">
@@ -346,7 +372,7 @@
     <div class="freelance-section text-center text-white">
         <div class="container ">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-sm-12">
+                <div class="col-lg-8 offset-lg-2 col-sm-12" data-aos="zoom-in-up">
                     <p>Do you have any work ?</p>
                     <h2>I'm Available for Freelance Projects</h2>
                     <a href="#contact" class="btn mt-3">Hire Me</a>
@@ -364,19 +390,19 @@
     <section id="contact" class="contact section py-5 bg-white ">
 
         <!-- Section Title -->
-        <div class="container mb-4 section-title">
+        <div class="container mb-4 section-title"  data-aos="fade-up">
             <h2>Contact Me</h2>
             <p class="my-3">Let's collaborate on your next project</p>
         </div><!-- End Section Title -->
 
 
-        <div class="container-lg ">
+        <div class="container-lg "  data-aos="fade-up" data-aos-delay="100">
 
             <div class="row gy-4">
                 <div class="col-lg-5">
                     <div class="info-wrap">
 
-                        <div class="info-item d-flex">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-twitter-x flex-shrink-0"></i>
                             <div>
                                 <h3>Connect on X</h3>
@@ -386,7 +412,7 @@
                         </div>
                         <!-- End Info Item -->
 
-                        <div class="info-item d-flex">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Me</h3>
@@ -395,7 +421,7 @@
                         </div>
                         <!-- End Info Item -->
 
-                        <div class="info-item d-flex">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Me</h3>
@@ -415,7 +441,7 @@
 
                 <div class="col-lg-7">
                     <form action="https://formsubmit.co/19a383b636a0671273ea282f84a174bf" method="POST"
-                        class="contact-email-form">
+                        class="contact-email-form" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
                             <!--Honey Port-->
                             <input type="text" name="_honey" id="#" style="display: none;">
@@ -477,8 +503,17 @@
     <script src="Assets/bootstrap-5.3.3-dist/jquery-3.7.1/jquery-3.7.1.js"></script>
     <script src="Assets/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/aos/aos.js"></script>
-    <script src="script.js">
-
+    <script src="script.js"></script>
+    <script>
+        function aosInit() {
+            AOS.init({
+                duration: 600,
+                easing: 'ease-in-out',
+                once: true,
+                mirror: false
+            });
+        }
+        window.addEventListener('load', aosInit);
     </script>
 </body>
 
