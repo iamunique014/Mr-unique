@@ -290,25 +290,6 @@ h2,
 }
 
 /*--------------------------------------------------------------
-# ======= FREELANCE STYLES=========
---------------------------------------------------------------*/
-
-.section-padding {
-    padding: 100px 0;
-}
-
-.freelance-section {
-    padding: 120px 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Assets/Images/pexels-googledeepmind-18069814.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-
-
-
-/*--------------------------------------------------------------
 # ========= Contact Section ==============
 --------------------------------------------------------------*/
 
