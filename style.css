@@ -198,7 +198,7 @@ section,
 h2,
 .service-item h3,
 .contact h3 {
-    color: #4668a2;
+    color: var(--accent-color);
     font-weight: 700;
 }
 
@@ -250,9 +250,12 @@ h2,
 --------------------------------------------------------------*/
 
 .about .about-text h3 {
-    color: var(--heading-color);
+    color: var(--accent-color);
     font-size: 2rem;
     font-weight: 700;
+}
+.about .about-text p{
+    color: #ffffff;
 }
 
 .about .about-text .social-links a:hover i {
@@ -270,6 +273,7 @@ h2,
 .service-item {
     transition: all ease-in-out 0.4s;
     height: 100%;
+    color: #ffffff;
 }
 
 .service-item .icon i {
@@ -282,7 +286,7 @@ h2,
 }
 
 .services .service-item:hover h3 {
-    color: var(--accent-color);
+    color: var(--heading-color);
     transition: 0.3s;
 }
 
