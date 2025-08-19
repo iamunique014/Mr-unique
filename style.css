@@ -120,6 +120,7 @@ section,
     font-size: 18px;
     font-family: var(--nav-font);
     font-weight: 400;
+    color: #ffffff;
     position: relative;
 }
 
@@ -145,7 +146,7 @@ section,
 
 @media (max-width: 991px) {
     nav {
-        background-color: rgba(240, 242, 245, 0.9);
+        background-color: rgba(36, 36, 36, 0.9);
     }
 
     .navbar .nav-item a:hover::after {
@@ -168,6 +169,10 @@ section,
 
 .navbar span, .home-text span {
     color: #47b2e4;
+}
+
+.home-text p, h1{
+    color:#ffffff;
 }
 
 .home-text:hover span {
