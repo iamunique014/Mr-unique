@@ -141,7 +141,7 @@ section,
 }
 
 .navbar-scrolled {
-    background-color: rgba(240, 242, 245, 0.9);
+    background-color: rgba(36, 36, 36, 0.9);
 }
 
 @media (max-width: 991px) {
@@ -444,11 +444,13 @@ h2,
 .footer .copyright p {
     color: #444444;
     margin-bottom: 0;
+    color: #ffffff;
 }
 
 .footer .credits {
     margin-top: 6px;
     font-size: 13px;
+    color: #ffffff;
 }
 
 .footer .credits a {
