@@ -314,6 +314,11 @@ h2,
     font-weight: 500;
 }
 
+.hover-light:hover {
+    color: #f8f9fa !important;
+    transition: color 0.2s ease-in-out;
+}
+
 
 /*--------------------------------------------------------------
 # ========= Contact Section ==============
